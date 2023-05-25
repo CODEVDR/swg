@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap");
+html {
+  margin: 0;
+  padding: 0;
+  background: rgb(2, 17, 29);
+}
+.section {
+  display: flex;
+  padding: 30px;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 0 0 10px green;
+  width: 90%;
+}
+.text-medium {
+  display: block;
+  align-items: center;
+  width: auto;
+  font-size: 25px;
+  margin: 30px;
+  color: greenyellow;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 0 10px green;
+  font-family: "Roboto Mono", monospace;
+}
+button {
+  border-radius: 25px;
+}
+.thumbnail img {
+  height: 250px;
+  width: 250px;
+  border-radius: 25px;
+  box-shadow: 0 0 10px white;
+}
+@media only screen and (max-width: 900px) {
+  div {
+    display: inline;
+  }
+  .thumbnail img {
+    height: 150px;
+    width: 150px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px white;
+  }
+}
+@media only screen and (max-width: 700px) {
+  div {
+    display: inline;
+  }
+  .thumbnail img {
+    height: 120px;
+    width: 120px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px white;
+  }
+}
+@media only screen and (max-width: 500px) {
+  div {
+    display: inline;
+  }
+  .thumbnail img {
+    height: 80px;
+    width: 80px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px white;
+  }
+}
+@media only screen and (max-width: 300px) {
+  div {
+    display: inline;
+  }
+  .thumbnail img {
+    height: 80px;
+    width: 80px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px white;
+  }
+}
